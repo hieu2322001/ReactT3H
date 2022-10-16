@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 20px;
+}
+
+main {
+    display: flex;
+}
+
+.leftContent {
+    width: 1200px;
+    margin: 0 15px;
+}
+
+.rightContent {
+    width: 500px;
+    margin: 0 15px;
+
+}
+img {
+    width: 100%;
+}
+
+.leftC1 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 20px;
+}
+
+.leftC2 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 20px
+}
+
+.titleHd {
+    font-size: 25px;
+    margin: 20px 20px;
+}
+
+.titleDes {
+    font-size: 18px;
+    margin: 20px 20px;
+}
+
+.date {
+    color: rgb(157, 136, 107);
+}
+.des {
+    margin: 20px 20px;
+}
+
+.readMore {
+    margin: 30px 20px 10px 30px;
+}
+
+.readMore:hover {
+    cursor: pointer;
+}
+
+.endCt {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+}
+
+.comment {
+    margin: 30px 60px 10px 30px;
+}
+.rightC1 {
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.rightC1 h1 {
+    font-size: 20px;
+    padding: 10px 0 0px 10px;
+}
+
+.rightC1 p {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.post {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.post img {
+    width: 90px;
+    height: 90px;
+}
+
+.post ul {
+    list-style: none;
+}
+
+.post li {
+    display: flex;
+    padding: 10px 10px;
+}
+
+.pplPost {
+    width: 100%;
+    padding: 20px 20px;
+    font-size: 20px;
+    background: rgb(238, 237, 237);
+}
+
+.infor {
+    margin: 10px 10px;
+}
+.post li:hover {
+    background: #ccc;
+}
+
+.tag {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+}
+
+.tagTitle {
+    width: 100%;
+    padding: 30px 30px;
+    font-size: 20px;
+    background: rgb(238, 237, 237);
+}
+
+.tagDes {
+    padding: 20px 20px;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background: rgb(122, 122, 122);
+}
+
+footer button {
+    width: 100px;
+    height: 40px;
+    margin: 20px 0px 10px 20px;
+}
+
+.bt1 {
+    background: #ccc;
+    border: none;
+}
+
+.bt2 {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.bt1:hover {
+    background: rgb(124, 124, 124);
+    border: none;
+    cursor:not-allowed;
+}
+
+.bt2:hover {
+    background: rgb(142, 142, 142);
+    color: black;
+    border: none;
+    cursor: text;
+}
+
+footer p {
+    color: white;
+    padding: 0px 0 0 20px;
+}
+footer p a {
+    color: white;
+}
